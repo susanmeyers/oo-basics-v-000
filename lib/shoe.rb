@@ -4,7 +4,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    @shoe_condition = Shoecondition
+    @shoe_condition = shoe_condition
 
   end
 
