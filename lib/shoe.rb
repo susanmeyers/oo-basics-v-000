@@ -4,13 +4,12 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    @condition = condition
+    @shoe_condition = Shoecondition
 
   end
 
 
   def cobble
-
     puts "Your shoe is as good as new!"
   end
 
